@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo - Rem</title>
+  <style>
+    div {
+      font-size: 2rem;
+      /* 32px */
+    }
+
+    p {
+      font-size: 1rem;
+      /* 16px */
+    }
+
+    div p {
+      font-size: 1em;
+      /* 100% de 2rem = 32px */
+    }
+  </style>
+</head>
+
+<body>
+  <p>Eu sou um texto muito feliz fora da div! 😁</p>
+  <div>
+    <p>Eu sou um texto muito feliz na div! 😁</p>
+  </div>
+</body>
+
+</html>
